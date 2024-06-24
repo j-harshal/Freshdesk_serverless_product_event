@@ -24,6 +24,4 @@ Congratulations on creating your App Project! Feel free to replace this text wit
             ├── onExternalEvent.json
             ├── onTicketCreate.json
             └── onTicketUpdate.json
-=======
-# Freshdesk_serverless_product_event
->>>>>>> origin/main
+

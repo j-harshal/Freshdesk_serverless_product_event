@@ -1,0 +1,8 @@
+{
+	"backendAppName": {
+      "display_name": "Backend App Name",
+      "description": "Please enter your Backend App Name",
+      "type": "text",
+      "required": true
+    }
+}

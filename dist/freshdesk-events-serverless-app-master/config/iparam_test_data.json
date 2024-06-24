@@ -1,0 +1,10 @@
+{
+	"backendAppName": "Coverfox",
+	"appInstallWebhookUrl": "",
+	"appUninstallWebhookUrl": "",
+	"ticketCreatedWebhookUrl": "http://127.0.0.1:8000/freshdesk/app_events/ticket/created/",
+	"ticketUpdatedWebhookUrl": "http://127.0.0.1:8000/freshdesk/app_events/ticket/updated/",
+	"contactCreatedWebhookUrl": "http://127.0.0.1:8000/freshdesk/app_events/contact/created/",
+	"contactUpdatedWebhookUrl": "http://127.0.0.1:8000/freshdesk/app_events/contact/updated/",
+	"conversationCreatedWebhookUrl": "http://127.0.0.1:8000/freshdesk/app_events/conversation/created/"
+}

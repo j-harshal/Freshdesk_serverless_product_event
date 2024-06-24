@@ -1,0 +1,50 @@
+{
+	"backendAppName": {
+      "display_name": "Backend App Name",
+      "description": "Please enter your Backend App Name",
+      "type": "text",
+      "required": true
+    },
+    "appInstallWebhookUrl": {
+      "display_name": "App Install Webhook Url",
+      "description": "Please enter App Install Webhook Url",
+      "type": "text",
+      "required": false
+    },
+    "appUninstallWebhookUrl": {
+      "display_name": "App Unistall Webhook Url",
+      "description": "Please enter App Unistall Webhook Url",
+      "type": "text",
+      "required": false
+    },
+	"ticketCreatedWebhookUrl": {
+      "display_name": "Ticket Created Webhook Url",
+      "description": "Please enter Ticket Created Webhook Url",
+      "type": "text",
+      "required": false
+    },
+    "ticketUpdatedWebhookUrl": {
+      "display_name": "Ticket Updated Webhook Url",
+      "description": "Please enter Ticket Updated Webhook Url",
+      "type": "text",
+      "required": false
+    },
+    "ContactCreatedWebhookUrl": {
+      "display_name": "Contact Created Webhook Url",
+      "description": "Please enter Contact Created Webhook Url",
+      "type": "text",
+      "required": false
+    },
+    "ContactUpdatedWebhookUrl": {
+      "display_name": "Contact Upated Webhook Url",
+      "description": "Please enter Contact Updated Webhook Url",
+      "type": "text",
+      "required": false
+    },
+    "ConversationCreatedWebhookUrl": {
+      "display_name": "Contact Created Webhook Url",
+      "description": "Please enter Contact Created Webhook Url",
+      "type": "text",
+      "required": false
+    }
+}

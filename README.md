@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Freshdesk App Project
 
 Congratulations on creating your App Project! Feel free to replace this text with your project description.
@@ -23,3 +24,6 @@ Congratulations on creating your App Project! Feel free to replace this text wit
             ├── onExternalEvent.json
             ├── onTicketCreate.json
             └── onTicketUpdate.json
+=======
+# Freshdesk_serverless_product_event
+>>>>>>> origin/main

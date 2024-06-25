@@ -10,7 +10,6 @@ This app is developed using the Freshdesk Development Kit (FDK) and is designed 
   - [Installation Parameters](#installation-parameters)
   - [Server Configuration](#server-configuration)
 - [Testing](#testing)
-- [Directory Structure](#directory-structure)
 - [Usage](#usage)
 - [Notes](#notes)
 
@@ -33,15 +32,19 @@ To install and deploy this app on Freshdesk, follow these steps:
 
 ## Configuration
 
-Manifest File
+### Manifest File
 Edit the manifest.json file to configure your app's basic details and event subscriptions.
 
-## Installation Parameters
+### Installation Parameters
 Edit config/iparams.json to define any installation parameters needed for your app, such as your server endpoint URL.
 
-## Server Configuration
+### Server Configuration
 Edit server/server.js to handle incoming events and send the payload to your backend server. Ensure the webhook URL is updated to point to your server's endpoint or is taken as input via installation parameters.
 
+## Testing
+Use the test data available in the server/test_data directory to simulate Freshdesk events and test your handlers locally.
+    fdk run --mock server/test_data/onTicketCreate.json
+    
 ## Usage
 1. Configure the manifest.json file to subscribe to the desired events.
 2. Update the server/server.js file to handle these events and send the data to your backend server.
